@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
         try {
             // Make a POST request to the Flask API
-            const response = await fetch('http://65.2.10.13:8000/merge_files', {
+            const response = await fetch('https://65.2.10.13:8000/merge_files', {
                 method: 'POST',
                 body: formData
             });
